@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>About-Us : Fusion Bean Cofe  </title>
+  <style>
+    /* Basic styling */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f5f5f5;
+      color: #333; /* Text color */
+    }
+
+    /* Header */
+    header {
+      background-color: #c89053; /* Header background color */
+      color: #503b27;
+      padding: 20px;
+      text-align: center;
+      animation: headerAnimation 1s ease-in-out;
+    }
+
+    /* Animation for header */
+    @keyframes headerAnimation {
+      0% {
+        transform: translateY(-100%);
+        opacity: 0;
+      }
+      100% {
+        transform: translateY(0);
+        opacity: 1;
+      }
+    }
+
+    /* Main content */
+    main {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 20px;
+      animation: contentAnimation 1s ease-in-out;
+    }
+
+    /* Animation for main content */
+    @keyframes contentAnimation {
+      0% {
+        transform: scale(0.8);
+        opacity: 0;
+      }
+      100% {
+        transform: scale(1);
+        opacity: 1;
+      }
+    }
+
+    /* About section */
+    #about {
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 5px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      animation: aboutAnimation 1s ease-in-out;
+      color: #333; /* Text color */
+    }
+
+    /* Animation for about section */
+    @keyframes aboutAnimation {
+      0% {
+        transform: translateX(-100%);
+        opacity: 0;
+      }
+      100% {
+        transform: translateX(0);
+        opacity: 1;
+      }
+    }
+    .back-arrow { position: fixed; top: 20px; left: 20px; font-size: 30px; color: #503b27; text-decoration: none; }
+
+  </style>
+</head>
+<body>
+  <header> 
+    <a href="index.html" class="back-arrow">&#9664;</a>
+    <h1>Fusion Bean Coffee</h1>
+  </header>
+
+  <main>
+    <section id="about">
+      <h2>About Us</h2>
+      <p>Welcome to Fusion Bean Coffee, where we blend the finest coffee beans from around the world to create unique and unforgettable flavors. Our passion for coffee is evident in every cup we serve, and we strive to provide our customers with an exceptional experience.</p>
+      <p>Founded in 2010, Fusion Bean Cofe has grown from a small coffee shop to a beloved brand, known for its innovative and artisanal approach to coffee. We source our beans directly from the best farms and roast them to perfection, ensuring that every sip is a journey of flavor.</p>
+      <p>Our team of skilled baristas is dedicated to crafting each cup with care and precision, ensuring that every customer leaves our cafe with a smile on their face and a desire to come back for more. Join us on this flavorful adventure and experience the true essence of coffee.</p>
+      <p>Visit us today and indulge in our wide selection of coffee drinks, pastries, and snacks. Whether you're a coffee aficionado or just looking for a cozy spot to relax, Fusion Bean Cofe welcomes you with open arms. Let's brew some memories together!</p>
+    </section>
+  </main>
+</body>
+</html>
